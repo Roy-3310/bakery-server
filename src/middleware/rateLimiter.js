@@ -1,3 +1,5 @@
+//防止用戶異常操作行為!!
+
 const requestCounts = new Map();
 
 function cleanupExpired(windowMs) {
