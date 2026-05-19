@@ -40,5 +40,5 @@ app.use(notFoundHandler);
 app.use(globalErrorHandler);
 
 connectDB().then(() => {
-  app.listen(PORT, () => console.log(`Server 啟動於 http://localhost:${PORT}`));
+  app.listen(PORT, () => console.log(`Server 啟動於 ${PORT}`));
 });
